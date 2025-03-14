@@ -1,0 +1,49 @@
+Nota Esquecida
+<?php
+
+$a = 1;
+$m = 50;
+
+$b = (2 * $m) - $a;
+echo $b;
+
+
+Altura Mínima 
+<?php
+
+$altura_carlitos = 120;
+$n_brinquedos = 6;
+$altura_brinquedos = [200, 90, 100, 123, 120, 169];
+$pode_ir_no_brinquedo = 0;
+
+for($i = 0; $i < $n_brinquedos; $i++){
+ if($altura_carlitos >= $altura_brinquedos[$i]){
+  $pode_ir_no_brinquedo++;
+ }
+}
+
+echo $pode_ir_no_brinquedo;
+
+Feleférico
+<?php
+
+$capacidade_total = 100;
+$quantidade_alunos = 87;
+
+$capacidade_real = $capacidade_total - 1;
+
+$total_viagens = intval(($quantidade_alunos + $capacidade_real - 1) / $capacidade_real);
+
+echo $total_viagens;
+?>
+
+Guardando enfeites
+<?php
+
+$capacidade = 100;
+$alunos = 87;
+
+echo ceil($alunos / ($capacidade - 1));
+
+?>
+
