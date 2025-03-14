@@ -48,8 +48,8 @@ echo ceil($alunos / ($capacidade - 1));
 ?>
 
 
-Aqui está a imagem que coloquei no repositório:
+Aqui está o link da imagem de conclusao de curso:
 
-course-git/imagem-curso-concluido
+Baixar imagem
 
 
