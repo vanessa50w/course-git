@@ -24,3 +24,32 @@ for($i = 0; $i < $n_brinquedos; $i++){
 
 echo $pode_ir_no_brinquedo;
 
+Feleférico
+<?php
+
+$capacidade_total = 100;
+$quantidade_alunos = 87;
+
+$capacidade_real = $capacidade_total - 1;
+
+$total_viagens = intval(($quantidade_alunos + $capacidade_real - 1) / $capacidade_real);
+
+echo $total_viagens;
+?>
+
+Guardando enfeites
+<?php
+
+$capacidade = 100;
+$alunos = 87;
+
+echo ceil($alunos / ($capacidade - 1));
+
+?>
+
+
+Aqui está a imagem que coloquei no repositório:
+
+course-git/imagem-curso-concluido
+
+
